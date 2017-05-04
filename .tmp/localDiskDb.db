@@ -1,0 +1,99 @@
+{
+  "data": {
+    "people": [
+      {
+        "name": "David",
+        "createdAt": "2017-05-03T23:53:39.561Z",
+        "updatedAt": "2017-05-03T23:53:39.561Z",
+        "id": 1
+      },
+      {
+        "name": "Phil",
+        "createdAt": "2017-05-03T23:53:45.013Z",
+        "updatedAt": "2017-05-03T23:53:45.013Z",
+        "id": 2
+      },
+      {
+        "name": "Bob",
+        "createdAt": "2017-05-04T00:23:15.762Z",
+        "updatedAt": "2017-05-04T00:23:15.762Z",
+        "id": 3
+      },
+      {
+        "name": "Mary",
+        "createdAt": "2017-05-04T00:30:07.274Z",
+        "updatedAt": "2017-05-04T00:30:07.274Z",
+        "id": 4
+      },
+      {
+        "name": "Bill",
+        "createdAt": "2017-05-04T00:30:15.789Z",
+        "updatedAt": "2017-05-04T00:30:15.789Z",
+        "id": 5
+      },
+      {
+        "name": "Cameron",
+        "createdAt": "2017-05-04T00:39:49.883Z",
+        "updatedAt": "2017-05-04T00:39:49.883Z",
+        "id": 6
+      },
+      {
+        "name": "Jermey",
+        "createdAt": "2017-05-04T00:40:09.069Z",
+        "updatedAt": "2017-05-04T00:40:09.069Z",
+        "id": 7
+      },
+      {
+        "name": "Krystin",
+        "createdAt": "2017-05-04T00:40:51.350Z",
+        "updatedAt": "2017-05-04T00:40:51.350Z",
+        "id": 8
+      },
+      {
+        "name": "Austin",
+        "createdAt": "2017-05-04T00:41:25.301Z",
+        "updatedAt": "2017-05-04T00:41:25.301Z",
+        "id": 9
+      },
+      {
+        "name": "Taylor",
+        "createdAt": "2017-05-04T00:41:58.486Z",
+        "updatedAt": "2017-05-04T00:41:58.486Z",
+        "id": 10
+      },
+      {
+        "name": "Three",
+        "createdAt": "2017-05-04T00:42:19.067Z",
+        "updatedAt": "2017-05-04T00:42:19.067Z",
+        "id": 11
+      },
+      {
+        "name": "Spencer",
+        "createdAt": "2017-05-04T00:42:25.102Z",
+        "updatedAt": "2017-05-04T00:42:25.102Z",
+        "id": 12
+      }
+    ]
+  },
+  "schema": {
+    "people": {
+      "id": {
+        "type": "integer",
+        "autoIncrement": true,
+        "primaryKey": true,
+        "unique": true
+      },
+      "createdAt": {
+        "type": "datetime"
+      },
+      "updatedAt": {
+        "type": "datetime"
+      }
+    }
+  },
+  "counters": {
+    "people": {
+      "id": 12
+    }
+  }
+}
